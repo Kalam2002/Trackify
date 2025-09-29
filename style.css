@@ -15,3 +15,16 @@ body{
     margin-bottom: 10px;
     background-color: lightgreen;
 }
+
+#box2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    font-weight: bold;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgb(185, 167, 226);
+}
