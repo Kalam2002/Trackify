@@ -6,5 +6,5 @@ box.addEventListener("click",function(){
     while(selectedPerson1===selectedPerson2){
         selectedPerson2=person[Math.floor(Math.random()*person.length)];
     }
-    alert(selectedPerson1+" Weds "+selectedPerson2);
+    box.textContent=selectedPerson1 +" Weds "+selectedPerson2
 })
